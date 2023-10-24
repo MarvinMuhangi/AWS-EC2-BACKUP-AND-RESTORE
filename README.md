@@ -17,7 +17,7 @@ Step.2
 -	Create a file 
 i)	ssh into the ec2 instance using your terminal for the mac user and command prompt for windows user: first locate the ssh key you created in the early steps.
 ii)	After locating where you saved it, run the chmod 400 <your-ssh-key.pem> command to make sure it’s read-only. Replace the <your-ssh-key.pem> with the actual name for your key.
-iii)	Then to ssh into your instance, run this command and replace the <your-ssh-key.pem> with the actual name for your key and the <public- ip-address>: 
+iii)	Then to ssh into your instance, run this command and replace the <your-ssh-key.pem> with the actual name for your key and the <public-ip-address>: 
 ssh -I “the <your-ssh-key.pem>” ec2-user@ec2- <public-ip-address>.computer-1.amazonaws.com
 iv)	You’ll then be prompted with a yes/no question, type yes
 v)	When logged in create a file(like file.txt). use the cat > filename command replace the “filename” with your preferred name in my case I used file.txt. With the cat command you’ll be prompted to add some data into the file on the next line, write in Hello world, then press ctrl D to save and then ctrl c to exit the prompt.
