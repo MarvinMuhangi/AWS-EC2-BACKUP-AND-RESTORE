@@ -38,7 +38,9 @@ Step 4.
 -	Check if the file.txt file is on the new launched instance.
 i)	After the instance is launched and running, ssh to it and try to find the file you created in the primary instance, and make sure that it was captured when we created the image.
 ii)	If you find, Congratulations! You backed up and restored an instance.
-How is this helpful?
+
+
+HOW IS THIS HELPFUL?
 This skill is exceptionally valuable and a best practice for ensuring a highly available architecture. In situations where your primary instance experiences a failure, this skill enables you to swiftly initiate a new instance, ensuring that all files and resources are readily accessible. It serves as a critical component of disaster recovery preparedness.
-![image](https://github.com/MarvinMuhangi/AWS-EC2-BACKUP-AND-RESTORE/backup-and-restore.pptx
+![image](https://github.com/MarvinMuhangi/AWS-EC2-BACKUP-AND-RESTORE/backup-and-restore.pptx)
 
