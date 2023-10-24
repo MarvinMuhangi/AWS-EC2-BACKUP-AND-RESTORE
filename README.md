@@ -42,5 +42,5 @@ ii)	If you find, Congratulations! You backed up and restored an instance.
 
 HOW IS THIS HELPFUL?
 This skill is exceptionally valuable and a best practice for ensuring a highly available architecture. In situations where your primary instance experiences a failure, this skill enables you to swiftly initiate a new instance, ensuring that all files and resources are readily accessible. It serves as a critical component of disaster recovery preparedness.
-![image](https://github.com/MarvinMuhangi/AWS-EC2-BACKUP-AND-RESTORE/assets/backup-and-restore.pptx)
+![image](https://github.com/MarvinMuhangi/AWS-EC2-BACKUP-AND-RESTORE/main/backup.png)
 
