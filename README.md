@@ -1,16 +1,17 @@
 # AWS-EC2-BACKUP-AND-RESTORE
 Step.1
 -	Create your primary ec2 instance 
-i)	Give it a name
-ii)	Select Amazon linux 2 AMI
-iii)	Select a vpc and a subnet that you prefer(private or public)
-iv)	Create an ssh key if you don’t have one already(because we are to need it to securely logon to our instance through ssh). When create , save it somewhere safe on your computer.
-v)	Select or create a security that atleast allows port 22(ssh)
-vi)	Leave the ebs storage to the default(8gib)
-vii)	Go to the advanced settings at the bottom and scroll until you find user data, paste this: #!/bin/bash
-# Use this for your user data (script from top to bottom)
-# install httpd (Linux 2 version)
-yum update -y
+    i)	Give it a name
+    ii)	Select Amazon linux 2 AMI
+    iii)	Select a vpc and a subnet that you prefer(private or public)
+    iv)	Create an ssh key if you don’t have one already(because we are to need it to securely logon to our instance through ssh). When create , save it somewhere safe on your computer.
+   v)	Select or create a security that atleast allows port 22(ssh)
+   vi)	Leave the ebs storage to the default(8gib)
+   vii)	Go to the advanced settings at the bottom and scroll until you find user data, paste this:
+#!/bin/bash
+#Use this for your user data (script from top to bottom)
+#install httpd (Linux 2 version)
+yum update -y (THIS COMMAND RUNS ANY SERVER UPDATES AVAILABLE AT LAUNCH)
 Then click launch instance
 
 Step.2
